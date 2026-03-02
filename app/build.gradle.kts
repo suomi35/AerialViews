@@ -15,6 +15,13 @@ plugins {
     alias(libs.plugins.baselineprofile)
 }
 
+/*
+######################################################################
+#  To connect to the nixplay frame: $ adb connect 192.168.1.7:6666   #
+#  Commands must use -e over wifi: $ adb -e [COMMAND]                #
+######################################################################
+ */
+
 android {
     namespace = "com.neilturner.aerialviews"
     compileSdk = 36
